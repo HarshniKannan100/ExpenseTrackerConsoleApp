@@ -1,18 +1,53 @@
-## Getting Started
+# 💸 Expense Tracker Console Application (Java)
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+A simple Java console-based application to track your expenses. It allows users to add, view, delete expenses, and calculate total spending — all through a clean terminal interface with colorful output.
 
-## Folder Structure
+## 🚀 Features
 
-The workspace contains two folders by default, where:
+- Add new expenses with amount, category, date, and description
+- View all recorded expenses in a table format
+- Delete a specific expense by index
+- Calculate and display total spending
+- Colored console output for better readability
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+## 🛠 Technologies Used
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+- Java (Standard Edition)
+- VS Code (Visual Studio Code)
+- ANSI escape codes for color formatting in terminal
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+## 📁 Folder Structure
 
-## Dependency Management
+ExpenseTrackerApp/
+├── Expense.java # Expense model class
+├── ExpenseTracker.java # Main logic and user interface
+└── README.md # This file
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+
+> This is a standalone Java console application — no external libraries or frameworks required.
+
+## 🧪 How to Run
+
+### ✅ Prerequisites
+- Java JDK installed ([Download here](https://www.oracle.com/java/technologies/javase-downloads.html))
+- Git (optional, for cloning)
+
+### 💻 Steps
+1. Clone the repo or download the files
+2. Open the folder in **VS Code**
+3. Open terminal and run:
+   ```bash
+   javac Expense.java ExpenseTracker.java
+   java ExpenseTracker
+
+=============================
+    EXPENSE TRACKER MENU
+=============================
+1. Add Expense
+2. View Expenses
+3. Delete Expense
+4. Total Spending
+5. Exit
+=============================
+Enter your choice:
+
